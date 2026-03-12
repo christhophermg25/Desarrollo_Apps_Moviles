@@ -22,5 +22,4 @@ Cada módulo tiene su carpeta correspondiente.
 
 
 
-**Grupo de WhatsApp del profesor:**  
-https://chat.whatsapp.com/FdcfmPNgoXrldCQNh2p42a
+
