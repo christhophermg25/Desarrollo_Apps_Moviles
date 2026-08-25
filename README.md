@@ -8,7 +8,7 @@ Repositorio oficial de **todas** las actividades del semestre.
 Cada módulo tiene su carpeta correspondiente.
 
 **Alumno:** Christhopher Irving Melgar Gómez
-**Semestre:** 2017-1
+**Semestre:** 2027-1
 
 ---
 
