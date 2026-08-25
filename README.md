@@ -1,4 +1,4 @@
-# Desarrollo de Aplicaciones Móviles - 2026-2
+# Desarrollo de Aplicaciones Móviles - 2027-1
 
 **Licenciatura en Informática 6° semestre**  
 **SUAYED - Facultad de Contaduría y Administración (UNAM)**  
