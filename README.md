@@ -8,7 +8,7 @@ Repositorio oficial de **todas** las actividades del semestre.
 Cada módulo tiene su carpeta correspondiente.
 
 **Alumno:** Christhopher Irving Melgar Gómez
-**Semestre:** Febrero - Junio 2026
+**Semestre:** 2017-1
 
 ---
 
