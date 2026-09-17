@@ -1,0 +1,55 @@
+package com.example.mi_primer_arreglo;
+
+import android.os.Bundle;
+import android.util.Log;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.activity_main);
+
+        // Crear un arreglo de 1,000,000 de elementos
+        int[] numeros = new int[1_000_000];
+
+        // Crear generador de números aleatorios
+        Random random = new Random();
+
+        // Llenar el arreglo con números aleatorios
+        for (int i = 0; i < numeros.length; i++) {
+            numeros[i] = random.nextInt();
+        }
+
+        Log.d("MI_PRIMER_ARREGLO", "Arreglo creado.");
+
+        // Iniciar medición del tiempo
+        long inicio = System.nanoTime();
+
+        // Ordenar el arreglo
+        Arrays.sort(numeros);
+
+        // Finalizar medición
+        long fin = System.nanoTime();
+
+        // Calcular tiempo
+        long tiempo = fin - inicio;
+
+        // Mostrar resultados en Logcat
+        Log.d("MI_PRIMER_ARREGLO", "Ordenamiento terminado.");
+        Log.d("MI_PRIMER_ARREGLO", "Tiempo: " + tiempo + " nanosegundos.");
+        Log.d("MI_PRIMER_ARREGLO",
+                "Tiempo: " + (tiempo / 1_000_000.0) + " milisegundos.");
+
+        // Mostrar algunos resultados
+        Log.d("MI_PRIMER_ARREGLO", "Primer elemento: " + numeros[0]);
+        Log.d("MI_PRIMER_ARREGLO",
+                "Último elemento: " + numeros[numeros.length - 1]);
+    }
+}
